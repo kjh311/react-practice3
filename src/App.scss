@@ -1,6 +1,6 @@
 @import 'outline';
 
-div{
+div, nav{
   @extend %color-border;
 }
 
@@ -40,5 +40,10 @@ div{
 
 nav{
   /*%color-border;*/
+}
+
+#secondDiv{
+  width: 100wv;
+  height: 50px;
 }
 
