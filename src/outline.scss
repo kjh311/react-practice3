@@ -1,0 +1,19 @@
+@import "./node_modules/bootstrap/scss/mixins";
+
+@import "./node_modules/bootstrap/scss/functions";
+
+@import "./node_modules/bootstrap/scss/variables";
+
+%color-border {
+  outline: 2px solid yellow;
+    @include media-breakpoint-up(sm) { 
+      outline: 2px solid orange;
+    }
+    @include media-breakpoint-up(md) { 
+      outline: 2px solid red;
+    }
+    @include media-breakpoint-up(lg) { 
+      outline: 2px solid purple;
+    }
+}
+

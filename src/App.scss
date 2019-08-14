@@ -1,3 +1,9 @@
+@import 'outline';
+
+div{
+  @extend %color-border;
+}
+
 .App {
   text-align: center;
 }
@@ -31,3 +37,8 @@
     transform: rotate(360deg);
   }
 }
+
+nav{
+  /*%color-border;*/
+}
+
