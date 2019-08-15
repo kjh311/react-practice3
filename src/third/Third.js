@@ -14,7 +14,7 @@ export class Third extends React.Component {
 
 	changeChildNumber (e) {
 		let childNumberTemp = e.target.value;
-		console.log(typeof childNumberTemp);
+		console.log(childNumberTemp);
 		if(childNumberTemp === ''){
 			this.setState({
 			childNumber : 0,

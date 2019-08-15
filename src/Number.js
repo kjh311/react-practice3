@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import PropTypes from 'prop-types';
+
 
 export class Number extends React.Component {
 
@@ -12,7 +14,13 @@ export class Number extends React.Component {
 	}
 }
 
+Number.propTypes = {
+  name: PropTypes.string,
+  changeNumber: PropTypes.func,
+};
+
 ReactDOM.render(
 	<Number />,
 	document.getElementById('root')
 )
+

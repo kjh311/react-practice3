@@ -21,7 +21,7 @@ export class Second extends React.Component {
 		return (
 			<div id="secondDiv">
 				second div {this.state.number}
-				<Number changeNumber={this.changeNumber} />
+				<Number changeNumber={this.changeNumber} name="George" />
 			</div>
 		)
 	}
