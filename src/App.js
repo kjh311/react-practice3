@@ -9,7 +9,7 @@ function App() {
     <div className="App">
     <Nav user="Kevin" />
     <Second />
-    <Third />
+    <Third  />
 
     </div>
   );

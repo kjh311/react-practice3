@@ -14,6 +14,12 @@ export class Third extends React.Component {
 
 	changeChildNumber (e) {
 		let childNumberTemp = e.target.value;
+		console.log(typeof childNumberTemp);
+		if(childNumberTemp === ''){
+			this.setState({
+			childNumber : 0,
+		})
+		}
 		this.setState({
 			childNumber : childNumberTemp,
 		})
