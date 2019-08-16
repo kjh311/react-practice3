@@ -5,6 +5,7 @@ import { Second } from './Second';
 import { Third } from './third/Third';
 import { Alert } from './Alert';
 import { Keys } from './Keys';
+import { NameForm } from './NameForm';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Third  />
     <Alert text="George" />
     <Keys />
+    <NameForm />
 
     </div>
   );
