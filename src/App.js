@@ -4,6 +4,7 @@ import { Nav } from './Nav';
 import { Second } from './Second';
 import { Third } from './third/Third';
 import { Alert } from './Alert';
+import { Keys } from './Keys';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Second />
     <Third  />
     <Alert text="George" />
+    <Keys />
 
     </div>
   );

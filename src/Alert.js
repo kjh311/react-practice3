@@ -19,7 +19,7 @@ export class Alert extends React.Component {
 	}
 
 	componentWillReceiveProps(nextProps) {
-    	alert("Check out the new props.text that "
+    	console.log("Check out the new props.text that "
     	+ "I'm about to get:  " + nextProps.text);
   	}
 
@@ -32,7 +32,7 @@ export class Alert extends React.Component {
   	}
 
   	componentWillUnmount() {
-    	alert('Goodbye world');
+    	console.log('Goodbye world');
   	}
 
   	handleChange(e){
